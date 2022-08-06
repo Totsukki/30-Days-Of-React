@@ -1,0 +1,103 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500|Roboto:300,400,500&display=swap" rel="stylesheet" />
+    <meta name="description" content="Web site created using create-react-app" />
+
+    <title>30 Days Of React App1</title>
+
+    <style>
+         :root {
+            --fontFamily: Montserrat;
+        }
+        
+        html,
+        body {
+            font-family: "Montserrat";
+            margin: 0;
+            width: 98%;
+        }
+        
+        h1 {
+            text-align: center;
+            margin: 0;
+            width: 100%;
+            padding: 1%
+        }
+        
+        .images {
+            display: flex;
+            flex-basis: 1;
+            flex-direction: row;
+            gap: 5rem;
+            padding: 0 3rem 3rem 3rem;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .images>img:last-child {
+            height: 10rem;
+        }
+        
+        img {
+            height: 20vh;
+        }
+        
+        .exer2 {
+            text-align: center;
+            width: 100%;
+            margin: 1%;
+            font-family: "Roboto";
+        }
+        
+        .exer2-wrapper {
+            background-color: rgb(199, 241, 255);
+            width: 100%;
+            padding: 1%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: .5rem;
+        }
+        
+        .exer2-wrapper>* {
+            border-radius: .5rem;
+        }
+        
+        .form {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            gap: 1rem;
+        }
+        
+        .form>input {
+            appearance: none;
+            border-radius: .5rem;
+            border: none;
+            outline: none;
+            padding: 2% 3%;
+            font-family: var(--fontFamily);
+        }
+        
+        button {
+            margin: 1%;
+            border: none;
+            padding: .8rem 8rem;
+            background: rgb(255, 147, 147);
+            color: white;
+            font-family: var(--fontFamily);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root"></div>
+</body>
+
+</html>
